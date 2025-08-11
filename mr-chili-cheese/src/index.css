@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredoka:wght@300..700&display=swap');
+
+body{
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+}
+h1{
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(2rem, 6vw, 3rem);
+    color: #693e03;
+}
+h2{
+    font-family: "Prata", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    color: #693e03;
+}

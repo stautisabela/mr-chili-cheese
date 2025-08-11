@@ -6,7 +6,7 @@ function MainPage({ onYesClick }) {
   return (
     <div className="hero">
       <div className="hero-top">
-        <p>HEY, BEAUTIFUL</p>
+        <p>HEY, HANDSOME</p>
         <h1>Do you want to go to Mr. Chili Cheese?</h1>
       </div>
       <div className="hero-bottom">
