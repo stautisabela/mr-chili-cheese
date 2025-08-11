@@ -13,10 +13,3 @@ h1{
     font-size: clamp(2rem, 6vw, 3rem);
     color: #693e03;
 }
-h2{
-    font-family: "Prata", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: clamp(1.5rem, 5vw, 3rem);
-    color: #693e03;
-}
