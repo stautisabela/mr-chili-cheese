@@ -30,19 +30,23 @@ html, body, #root {
 
 .hero-bottom {
   gap: 2rem;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 button {
   width: 150px;
   height: 50px;
   font-size: 1.2rem;
-  cursor: pointer;
   border: none;
   border-radius: 20px;
   background-color: white;
 }
-
-button:hover {
+.button-yes:hover {
+  cursor: pointer;
   background-color: lightgray;
+}
+
+.button-no:hover{
+  opacity: 0;
+  filter: alpha(opacity=0);
 }

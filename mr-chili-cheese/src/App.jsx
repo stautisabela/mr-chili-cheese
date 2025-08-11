@@ -1,9 +1,18 @@
 import { useState } from 'react'
-import './App.css'
 import MainPage from './Pages/MainPage';
+import YesPage from './Pages/YesPage';
 
 function App() {
-  return <MainPage />;
+  const [showYesPage, setShowYesPage] = useState(false);
+  return (
+      <>
+        {showYesPage ? (
+          <YesPage />
+        ) : (
+          <MainPage onYesClick={() => setShowYesPage(true)} />
+        )}
+      </>
+    );
 }
 
-export default App
+export default App;
