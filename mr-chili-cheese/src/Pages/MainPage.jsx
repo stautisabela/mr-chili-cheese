@@ -1,15 +1,15 @@
 import React from 'react'
 import './CSS/MainPage.css'
 
-function MainPage() {
+function MainPage({ onYesClick }) {
   return (
     <div className="hero">
       <div className="hero-top">
         <p>HEY, BEAUTIFUL</p>
-        <h1>Would you like to go to Mr. Chili Cheese?</h1>
+        <h1>Do you want to go to Mr. Chili Cheese?</h1>
       </div>
       <div className="hero-bottom">
-        <button>YES</button>
+        <button onClick={onYesClick}>YES</button>
         <button>NO</button>
       </div>
     </div>
